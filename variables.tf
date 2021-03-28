@@ -85,7 +85,7 @@ variable "autoscale_desired" {
 # rds
 variable "rds_db_name" {
   description = "RDS database name"
-  default     = "lori-assignment"
+  default     = "mydb"
 }
 variable "rds_username" {
   description = "RDS database username"
