@@ -81,3 +81,20 @@ variable "autoscale_desired" {
   description = "Desired autoscale (number of EC2)"
   default     = "4"
 }
+
+# rds
+variable "rds_db_name" {
+  description = "RDS database name"
+  default     = "lori-assignment"
+}
+variable "rds_username" {
+  description = "RDS database username"
+  default     = "myuser"
+}
+variable "rds_password" {
+  description = "RDS database password"
+}
+variable "rds_instance_class" {
+  description = "RDS instance type"
+  default     = "db.t2.micro"
+}
